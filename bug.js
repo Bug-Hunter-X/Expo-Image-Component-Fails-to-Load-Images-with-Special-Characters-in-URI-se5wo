@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Image` component with a URI that contains special characters, such as spaces or accented characters.  The image fails to load and no error is thrown in the console. The issue is particularly noticeable when using URIs from cloud storage services like Firebase Storage.
